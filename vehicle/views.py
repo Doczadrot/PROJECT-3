@@ -1,5 +1,5 @@
 from vehicle.models import Car, Moto
-from vehicle.serliazers import CarSerializers, MotoSerializers
+from vehicle.serliazers import CarSerializers, MotoSerializers, MilageSerializers
 from rest_framework import viewsets, generics
 
 #Cериалиторы
@@ -26,5 +26,8 @@ class MotoUpdateAPIView(generics.UpdateAPIView):
 
 class MotoDestroyAPIView(generics.DestroyAPIView):
     queryset = Moto.objects.all()
+
+class MilageCreateAPIView(generics.CreateAPIView):
+    serializer_class = MilageSerializers
 
 
