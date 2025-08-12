@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc67fe8a-e284-4767-acd8-2e0afbb8e560" name="Changes" comment="Создаем базовые приложения, и основные модели - USERS. Добавлен сириализатор CarSerializers.">
+    <list default="true" id="dc67fe8a-e284-4767-acd8-2e0afbb8e560" name="Changes" comment="Прописл новое поле в сериализатора машины, описал необходимые сериализаторы для пробега мотоциклов, создал новый эндотип вывода пробегов мотоцикла (урлы и контроллеры)..">
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicle/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vehicle/serliazers.py" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle/serliazers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vehicle/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vehicle/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle/views.py" afterDir="false" />
@@ -93,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754746513487</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Прописл новое поле в сериализатора машины, описал необходимые сериализаторы для пробега мотоциклов, создал новый эндотип вывода пробегов мотоцикла (урлы и контроллеры)..">
+      <option name="closed" value="true" />
+      <created>1755006986850</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755006986851</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создаем базовые приложения, и основные модели - USERS. Добавлен сириализатор CarSerializers." />
-    <option name="LAST_COMMIT_MESSAGE" value="Создаем базовые приложения, и основные модели - USERS. Добавлен сириализатор CarSerializers." />
+    <MESSAGE value="Прописл новое поле в сериализатора машины, описал необходимые сериализаторы для пробега мотоциклов, создал новый эндотип вывода пробегов мотоцикла (урлы и контроллеры).." />
+    <option name="LAST_COMMIT_MESSAGE" value="Прописл новое поле в сериализатора машины, описал необходимые сериализаторы для пробега мотоциклов, создал новый эндотип вывода пробегов мотоцикла (урлы и контроллеры).." />
   </component>
 </project>
