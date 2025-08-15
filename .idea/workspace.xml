@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc67fe8a-e284-4767-acd8-2e0afbb8e560" name="Changes" comment="Прописл новое поле в сериализатора машины, описал необходимые сериализаторы для пробега мотоциклов, создал новый эндотип вывода пробегов мотоцикла (урлы и контроллеры)..">
+    <list default="true" id="dc67fe8a-e284-4767-acd8-2e0afbb8e560" name="Changes" comment="Настройка фильтрации">
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/fixtures/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle/serliazers.py" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle/serliazers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehicle/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/vehicle/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
@@ -66,7 +66,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-4c141bd692a7-e2d783800521-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26927.90" />
+        <option value="bundled-python-sdk-d9fa9deec7cb-d902c0275401-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.23892.515" />
       </set>
     </attachedChunks>
   </component>
@@ -102,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755006986851</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Настройка фильтрации">
+      <option name="closed" value="true" />
+      <created>1755020234930</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755020234930</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создаем базовые приложения, и основные модели - USERS. Добавлен сириализатор CarSerializers." />
     <MESSAGE value="Прописл новое поле в сериализатора машины, описал необходимые сериализаторы для пробега мотоциклов, создал новый эндотип вывода пробегов мотоцикла (урлы и контроллеры).." />
-    <option name="LAST_COMMIT_MESSAGE" value="Прописл новое поле в сериализатора машины, описал необходимые сериализаторы для пробега мотоциклов, создал новый эндотип вывода пробегов мотоцикла (урлы и контроллеры).." />
+    <MESSAGE value="Настройка фильтрации" />
+    <option name="LAST_COMMIT_MESSAGE" value="Настройка фильтрации" />
   </component>
 </project>
