@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc67fe8a-e284-4767-acd8-2e0afbb8e560" name="Changes" comment="Настройка фильтрации">
+    <list default="true" id="dc67fe8a-e284-4767-acd8-2e0afbb8e560" name="Changes" comment="Добавили авторизацию JVT">
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/fixtures/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755020234930</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Добавили авторизацию JVT">
+      <option name="closed" value="true" />
+      <created>1755277338824</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755277338824</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +133,7 @@
     <MESSAGE value="Создаем базовые приложения, и основные модели - USERS. Добавлен сириализатор CarSerializers." />
     <MESSAGE value="Прописл новое поле в сериализатора машины, описал необходимые сериализаторы для пробега мотоциклов, создал новый эндотип вывода пробегов мотоцикла (урлы и контроллеры).." />
     <MESSAGE value="Настройка фильтрации" />
-    <option name="LAST_COMMIT_MESSAGE" value="Настройка фильтрации" />
+    <MESSAGE value="Добавили авторизацию JVT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавили авторизацию JVT" />
   </component>
 </project>
