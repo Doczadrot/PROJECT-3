@@ -1,6 +1,8 @@
 from django_filters.rest_framework import DjangoFilterBackend
+from rest_framework.permissions import IsAuthenticated
 
 from vehicle.models import Car, Moto, Milage
+from vehicle.permissions import IsOwnerOrStaff
 from vehicle.serliazers import CarSerializer, MotoSerializer, MilageSerializer, MotoMilageSerializer, MotoCreateSerialazer
 from rest_framework import viewsets, generics
 
@@ -8,12 +10,18 @@ from rest_framework import viewsets, generics
 class CarViewSet(viewsets.ModelViewSet):
     serializer_class = CarSerializer
     queryset = Car.objects.all()
+    permission_classes = [IsAuthenticated]
 
     #Дженерики
 
 class MotoCreateAPIViews(generics.CreateAPIView):
     # Здесь нужно использовать сериализатор, предназначенный для создания!
     serializer_class = MotoCreateSerialazer
+    permission_classes = [IsAuthenticated]
+
+    def perform_create(self, serializer):
+        serializer.save(owner=self.request.user)
+
 
 class MotoListAPIView(generics.ListAPIView):
     serializer_class = MotoSerializer
@@ -26,6 +34,7 @@ class MotoRetriveAPIView(generics.RetrieveAPIView):
 class MotoUpdateAPIView(generics.UpdateAPIView):
     serializer_class = MotoSerializer
     queryset = Moto.objects.all()
+    permission_classes = [IsOwnerOrStaff]
 
 class MotoDestroyAPIView(generics.DestroyAPIView):
     queryset = Moto.objects.all()
